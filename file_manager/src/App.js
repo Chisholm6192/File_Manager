@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+//import fileUpload from './FileUpload';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,14 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
+
+const App = () => {
+  return (
+    <div>
+      <h1>File Uploader</h1>
+    </div>
+  );
+};
 
 export default App;
